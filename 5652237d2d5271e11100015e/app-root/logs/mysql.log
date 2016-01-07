@@ -1,0 +1,29 @@
+160106 23:44:41 mysqld_safe Logging to '/var/lib/openshift/5652237d2d5271e11100015e/mysql//stdout.err'.
+160106 23:44:41 mysqld_safe Starting mysqld daemon with databases from /var/lib/openshift/5652237d2d5271e11100015e/mysql/data/
+160106 23:44:41 mysqld_safe Starting mysqld daemon with databases from /var/lib/openshift/5652237d2d5271e11100015e/mysql/data/
+160106 23:44:41 [Note] /opt/rh/mysql55/root/usr/libexec/mysqld (mysqld 5.5.45) starting as process 251813 ...
+160106 23:44:41 [Note] Plugin 'FEDERATED' is disabled.
+160106 23:44:41 InnoDB: The InnoDB memory heap is disabled
+160106 23:44:41 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160106 23:44:41 InnoDB: Compressed tables use zlib 1.2.3
+160106 23:44:41 InnoDB: Using Linux native AIO
+160106 23:44:41 InnoDB: Initializing buffer pool, size = 32.0M
+160106 23:44:41 InnoDB: Completed initialization of buffer pool
+160106 23:44:41 InnoDB: highest supported file format is Barracuda.
+160106 23:44:41  InnoDB: Waiting for the background threads to start
+160106 23:44:42 InnoDB: 5.5.45 started; log sequence number 18901283
+160106 23:44:42 [Note] Server hostname (bind-address): '127.9.2.2'; port: 3306
+160106 23:44:42 [Note]   - '127.9.2.2' resolves to '127.9.2.2';
+160106 23:44:42 [Note] Server socket created on IP: '127.9.2.2'.
+160106 23:44:43 [Warning] 'proxies_priv' entry '@ root@ex-std-node809.prod.rhcloud.com' ignored in --skip-name-resolve mode.
+160106 23:44:43 [Note] Event Scheduler: Loaded 0 events
+160106 23:44:43 [Note] /opt/rh/mysql55/root/usr/libexec/mysqld: ready for connections.
+Version: '5.5.45'  socket: '/var/lib/openshift/5652237d2d5271e11100015e/mysql//socket/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160106 23:44:44 [Note] /opt/rh/mysql55/root/usr/libexec/mysqld: Normal shutdown
+160106 23:44:44 [Note] Event Scheduler: Purging the queue. 0 events
+160106 23:44:44  InnoDB: Starting shutdown...
+160106 23:44:45  InnoDB: Shutdown completed; log sequence number 18901293
+160106 23:44:45 [Note] /opt/rh/mysql55/root/usr/libexec/mysqld: Shutdown complete
+chown: changing ownership of `/var/lib/openshift/5652237d2d5271e11100015e/mysql//stdout.err': Operation not permitted
+160106 23:44:45 mysqld_safe mysqld from pid file /var/lib/openshift/5652237d2d5271e11100015e/mysql/pid/mysql.pid ended
+160106 23:44:45 mysqld_safe mysqld from pid file /var/lib/openshift/5652237d2d5271e11100015e/mysql/pid/mysql.pid ended
