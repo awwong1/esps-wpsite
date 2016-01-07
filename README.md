@@ -1,14 +1,16 @@
 # esps-wpsite
 Site for Edmonton Suzuki Piano School. Raw snapshot file of the development site.
+
 DO NOT USE FOR PRODUCTION!! FFS
 
 Backup files for the development site deployed at https://espswpsite-esps.rhcloud.com/
+
 To be used in case of emergencies in case the deploy blows up. http://edmontonsuzukipiano.ca
 
 ## Restore the development
 
-# Tar up the folder with all the numbers as espswpsite.tar.gz
-# Run `rhc snapshot restore espswpsite`
+* Tar up the folder with all the numbers as espswpsite.tar.gz
+* Run `rhc snapshot restore espswpsite`
 
 ## License
 
